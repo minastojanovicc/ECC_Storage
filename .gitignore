@@ -1,0 +1,55 @@
+## VS Code / Visual Studio privremeni fajlovi i folderi
+## ===================================================
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Izgrađeni (Output) fajlovi
+## ==========================
+*.exe
+*.dll
+*.pdb
+*.suo
+*.userprefs
+*.vshost.exe
+*.vshost.exe.manifest
+*.xml
+*.log
+
+## WinForms / Recepti i lokalni keš dizajnera
+## ===========================================
+*.Designer.cs.bak
+*.resx.bak
+
+## NuGet paketi i paketski keš
+## ===========================
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+## Testiranje i pokrivenost koda
+## ============================
+TestResults/
+*.sequenced
+_Chutzpah*
+*.coverage
+*.coveragexml
+
+## Alati i eksterni dodaci (Resharper, JetBrains, itd.)
+## ====================================================
+_ReSharper*/
+*.[ReSharper].user
+*.DotMap7
+.ionide/
+
+## Operativni sistem (OS) specifični fajlovi
+## =========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
